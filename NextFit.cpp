@@ -54,6 +54,7 @@ int nextfit(int weight[]){
 int main(){
     int weight[50];
     int c = 0;
+    cout << "Getting values from: " << "N1C1W1_N.BPP";
     insertVal(weight);
 	cout << endl;
 	for(int i = 0; i < 50; i++){
