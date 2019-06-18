@@ -11,6 +11,7 @@ struct genome{
 }bing[33];
 
 void insertVal(int weight[]){
+	// Change file here // Use dynamic variables
 	ifstream f2("N1C1W1_N.BPP");
 	int val, i = 0, k = 0;
 	while(f2 >> val){
